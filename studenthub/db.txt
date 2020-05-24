@@ -1,0 +1,17 @@
+library{
+	
+	student{
+		id
+		rollno
+		email
+		password
+
+	}
+	
+	teacher{
+
+	}
+	books{
+
+	}
+}

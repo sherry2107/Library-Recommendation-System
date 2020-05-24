@@ -1,0 +1,144 @@
+	input{
+		border: .3px solid gray;
+		width: 100%;
+		border-radius: 3%; 
+	}
+	.topBar{
+		transition: 1.2s ease;
+		position: fixed;
+		background: #24292D;
+		color: #f1f1f1;
+		width: 100%;
+		left:0%;
+		padding-bottom:1.5%;
+		top:0%;
+		padding-left:5%;
+		opacity: .6#f,#b,#e,#m,#p{
+		margin:0% 0% 0% 0%; 
+		margin-top:2.8%;
+		color: #fff;
+		margin-right: 2.3%;
+		padding-top: %;
+		/*padding-bottom: 5%;*/
+		font-size: 1em;		
+	}
+
+	img{
+		/*padding-top: 2%;*/
+		margin-top:1%;
+		margin-right:2%; 
+		margin-bottom:-1.5%;
+		height: 3.6%;
+		width: 3.6%;
+	}
+
+	img:hover,#f:hover,#b:hover,#e:hover,#m:hover,#p:hover{
+		color:gray;
+		cursor: pointer;
+	}
+
+		}
+	body{ 	
+		/*
+		#005073 #107dac #199ad3 #1ebbd7
+		*/
+		height:;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+		color: #f1f1f1;
+		background:linear-gradient(#199ad3,#107dac , #2b3137) ;
+		font-family :'Avenir';
+		
+	}
+	#search:focus{
+		background: #f1f1f1;
+		color: #202020;	
+	}
+
+	#search{
+		background: #404348;
+		padding: .5% 2% .7% .4%;
+		color:white;
+		width:20%; 
+		border: none;
+
+	}
+	#submit{
+		width: 100%;
+		color:#f1f1f1;
+		background:#1ebbd7; 
+		border:none; 
+		font-size: 1em;
+		padding: 3%;
+	}
+	#submit:hover{
+		background:#199ad3; 
+		transition: .4s ease;
+		cursor: pointer;
+	}
+
+	i.fa-search { 
+		position: absolute; 
+		top: 1%; 
+		left: 85%;
+		color:gray; 
+	}
+	.search{
+		position: relative;
+	}
+
+	img{
+		/*padding-top: 2%;*/
+		margin-top:1%;
+		margin-right:2%; 
+		margin-bottom:-1.5%;
+		/*height: 3.6%;*/
+		width: 3.6%;
+	}
+
+	a#topBar{
+		color: gray;
+		text-decoration: none;
+	}
+	a#topBar:hover{
+		color: white;
+	}
+	a{
+		color: inherit;
+		text-decoration: inherit;
+	}
+	a:hover{
+		text-decoration:underline; 
+	}
+	#f,#b,#e,#m,#p{
+		margin:0% 0% 0% 0%; 
+		margin-top:2.8%;
+		color: #fff;
+		margin-right: 2.3%;
+		padding-top: %;
+		/*padding-bottom: 5%;*/
+		font-size: 1em;		
+	}
+
+	img:hover,#f:hover,#b:hover,#e:hover,#m:hover,#p:hover{
+		color:gray;
+		cursor: pointer;
+	}
+
+
+	/* latin-ext */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir LT Pro 45 Book'), local('AvenirLTPro-Book'), url(https://fonts.gstatic.com/l/font?kit=k6e5O52B6MekHtih-eM9afesZW2xOQ-xsNqO47m55DA&skey=8887f17a62203d44&v=v1) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir LT Pro 45 Book'), local('AvenirLTPro-Book'), url(https://fonts.gstatic.com/l/font?kit=yrOSjsChZucrvtFmTHmr7g&skey=8887f17a62203d44&v=v1) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
