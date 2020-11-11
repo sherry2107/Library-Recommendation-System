@@ -10,3 +10,13 @@ Technology to be used
 -Jupyter Notebook
 -Python (pandas,numpy,sklearn,matplotlib, etc)
 -HTML,CSS,JS,Php,SQL
+
+K Means
+This is an iterative algorithm that does partition in the dataset into K already
+defined unique non-overlapping clusters where every point belongs to a single
+group. It will try to make the inter-cluster points as similar to other
+inter-clusters as possible while keeping them as far as possible. Then it will
+assign data points to a cluster such that the sum of the squared distance
+between all points and the cluster’s centroid is at the least. The lesser the
+variation within clusters, the more similar the data points are inside the same
+cluster.
