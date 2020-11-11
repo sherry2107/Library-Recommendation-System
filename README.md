@@ -27,3 +27,5 @@ selecting K data points for the centroids without any replacement.
 ● Give each data point to the nearest centroid (clusters)
 ● Find the centroids for the clusters by averaging of all points that belong to
 every cluster.
+
+this was the flow of the project
