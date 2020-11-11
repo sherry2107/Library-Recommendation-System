@@ -41,12 +41,7 @@
 		}
 
 	}*/
-	/*echo "</select>";
-	$no = count($cluster);
-	$i = 0; 
-	while ($i<$no) {
-	echo " ".$cluster[$i]." ";
-	}*/
+	 #we didnt need the clusters to be shown to the user
 	
 ?>
 

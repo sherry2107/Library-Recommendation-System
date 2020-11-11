@@ -2,7 +2,7 @@
 	$flag=0;
 	$rollno = false;
 	if(isset($_POST['rollno'])){
-    	$rollno = $_POST['rollno'];
+    	$rollno = $_POST['rollno']; #this is to take the numbers
 	}
 	$counter = 1;
 	$dbhost = 'localhost';     
@@ -70,7 +70,7 @@
 		$row = mysqli_fetch_array($query);
 		$dbpword = $row['password'];
 		
-		if ($encpword == $dbpword) {
+		if ($encpword == $dbpword) { #code for encryption
 			session_start();  
     		$_SESSION['sess_rno']=$rollno;
     		if($rollno == "ADMIN"  && $pass == "ADMIN1234"){
@@ -81,7 +81,7 @@
 		}
 		else{
 			echo "Invalid username or password!"; 
-			/*session_start();  
+			/*session_start();  start this when logging in
     		$_SESSION['sess_error']=1; 
 			header('location:index.php')*/
 		}
